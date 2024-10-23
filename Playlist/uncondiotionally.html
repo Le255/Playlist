@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/unconditionally.css">
+    <title>Document</title>
+</head>
+<body>
+    <H1>Unconditionally</H1>
+
+  <h2>Letra</h2>
+  
+  <p class="negrito">Oh no, did I get too close?</p>
+  <p>Oh não, eu cheguei perto demais?</p>
+  <p class="negrito">Oh, did I almost see what's really on the inside?</p>
+  <p>Oh, eu quase vi o que está realmente por dentro?</p>
+  <p class="negrito">All your insecurities</p>
+  <p>Todas as suas inseguranças</p>
+  <p class="negrito">All the dirty laundry</p>
+  <p>Toda a roupa suja</p>
+  <p class="negrito">Never made me blink one time</p>
+  <p>Nunca me fizeram piscar uma vez</p>
+  <br>
+  <p class="negrito">Unconditional, unconditionally</p>
+  <p>Incondicional, incondicionalmente</p>
+  <p class="negrito">I will love you unconditionally</p>
+  <p>Eu te amarei incondicionalmente</p>
+  <p class="negrito">There is no fear now</p>
+  <p>Não há medo agora</p>
+  <p class="negrito">Let go and just be free</p>
+  <P>Solte-se e apenas seja livre</P>
+  <p class="negrito">I will love you unconditionally</p>
+  <p>Eu te amarei incondicionalmente</p>
+  <br>
+  <p class="negrito">So come just as you are to me</p>
+  <p>Então venha como você é para mim</p>
+  <p class="negrito">Don't need apologies</p>
+  <p>Não precisa de desculpas</p>
+  <p class="negrito">Know that you are all worthy</p>
+  <p>Saiba que você é totalmente digno</p>
+  <p class="negrito">I'll take your bad days with your good</p>
+  <p>Eu vou receber seus dias ruins com seu melho</p>
+  <p class="negrito">Walk through this storm I would</p>
+  <p>Caminharia através dessa tempestade</p>
+  <p class="negrito">I'd do it all because I love you</p>
+  <p>Eu faria tudo isso porque amo você</p>
+  <p class="negrito">I love you</p>
+  <p>Eu te amo</p>
+  <br>
+  <p class="negrito">Unconditional, unconditionally</p>
+  <p>Incondicional, incondicionalmente</p>
+  <p class="negrito">I will love you unconditionally</p>
+  <p>Eu te amarei incondicionalmente</p>
+  <p class="negrito">There is no fear now</p>
+  <p>Não há medo agora</p>
+  <p class="negrito">Let go and just be free</p>
+  <p>Solte-se e apenas seja livre</p>
+  <p class="negrito">I will love you unconditionally</p>
+  <p>Eu te amarei incondicionalmente</p>
+  <br>
+  <p class="negrito">So open up your heart and just let it begin</p>
+  <p>Então abra o seu coração e apenas deixe começar</p>
+  <p class="negrito">Open up your heart and just let it begin</p>
+  <p>Abra seu coração e apenas deixe começar</p>
+  <p class="negrito">Open up your heart and just let it begin</p>
+  <p>Então abra o seu coração e apenas deixe começar</p>
+  <p class="negrito">Open up your heart</p>
+  <p>Abra seu coração</p>
+  <br>
+  <p class="negrito">Acceptance is the key to be</p>
+  <p>A aceitação é a chave para ser</p>
+  <p class="negrito">To be truly free</p>
+  <p>Para ser verdadeiramente livre</p>
+  <p class="negrito">Will you do the same for me?</p>
+  <p>Você fará o mesmo por mim?</p>
+  <br>
+  <p class="negrito">Unconditional, unconditionally</p>
+  <p>Incondicional, incondicionalmente</p>
+  <p class="negrito">I will love you unconditionally</p>
+  <p>Eu te amarei incondicionalmente</p>
+  <p class="negrito">And there is no fear now</p>
+  <p>E não há medo agora</p>
+  <p class="negrito">Let go and just be free</p>
+  <p>Solte-se e apenas seja livre</p>
+  <p class="negrito">'Cause I will love you unconditionally (oh, yeah)</p>
+  <p>Porque eu te amarei incondicionalmente (oh yeah)</p>
+  <br>
+  <p class="negrito">I will love you (unconditionally)</p>
+  <p>Eu te amarei (incondicionalmente)</p>
+  <p class="negrito">I will love you</p>
+  <p>Eu te amarei</p>
+  <p class="negrito">Iwill love you unconditionally</p>
+  <P>Eu te amarei incondicionalmente</P>
+
+  <div id="quadrado" onclick="mudarInformacao()">
+      <img src="/img/Unconditionally.jpg">
+    </a>
+  </div>
+
+  <script>
+    function mudarInformacao() {
+        var quadrado = document.getElementById("quadrado");
+        var imagem = quadrado.querySelector('img');
+
+        var textoHTML = '<p>Artista:Kate Perry </p> <p> Álbum:Prism </p> ';
+        quadrado.innerHTML = '';
+
+        
+  
+        if (imagem) {
+            quadrado.innerHTML = textoHTML;
+        } else {
+            var novaImagem = document.createElement('img');
+            novaImagem.src = '/img/Unconditionally.jpg';
+            novaImagem.alt = 'Kate Perry';
+            quadrado.appendChild(novaImagem);
+        }
+    }
+  </script>
+
+  <a href="/index.html" class="voltar"> &#8592; </a>
+  <a href="/Playlist/when.html" class="proxima"> &#8594;</a>
+</body>
+</html>

@@ -1,0 +1,86 @@
+.negrito{
+    font-weight: bold ;
+    font-size: 18px;
+}
+
+body{
+    text-align: center;
+    background-image: linear-gradient(#808080, #4c4a4a, #848282);
+}
+
+p{
+  font-size: 18px;
+}
+
+
+img{
+  width: 100%;
+  height: 200px;
+}
+
+#quadrado {
+  width: 20%;
+  height: 200px;
+  background-color: #808080;
+  color: black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-sizing: border-box;
+  border-radius: 10px;
+  position: fixed;
+  bottom: 90px;
+  left: 50%;
+  transform: translateX(-250%);
+}
+
+#quadrado img{
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+}
+
+#quadrado a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.voltar {
+  display: inline-block;
+  padding: 15px 20px;
+  background-color: rgb(37, 35, 35);
+  color: aliceblue;
+  text-decoration: none;
+  border-radius: 50%;
+  left: 50%;
+  transform: translateX(-1050%);
+}
+
+.voltar:hover {
+  background-color: #000000;
+}
+
+.proxima{
+  display: inline-block;
+  padding: 15px 20px;
+  background-color: rgb(37, 35, 35);
+  color: aliceblue;
+  text-decoration: none;
+  border-radius: 50%;
+  left: 50%;
+  transform: translateX(1050%);
+}
+
+.proxima:hover{
+  background-color: #000000;
+} 
+
+
+
+
+
+
+

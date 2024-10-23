@@ -1,0 +1,116 @@
+
+img{
+    width: 300px;
+}
+
+nav{
+    background-image: linear-gradient(#514f4f, #343333, #000);
+    margin-bottom: 10px;
+}
+
+nav a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    margin-left: 100px;
+    padding-left: 20%;
+}
+
+
+.card{
+    background-image: linear-gradient(#808080, #696969, #242323);
+    width: 33%; 
+    height: 350px;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 0 auto 5px;
+    border-style: inset;
+    overflow: hidden;
+    position: relative;
+}
+
+.card img{
+   width: 200px;
+   height: 200px;
+   position: absolute;
+   top: 35%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   border-radius: 10px;
+}
+
+.card h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 90px;
+    left: 61%;
+    transform: translate(-55%, -28%);
+}
+
+
+#All\ of\ me {
+    text-shadow: 2px 2px 3px #808080;
+}
+
+#Impossible {
+    text-shadow: 2px 2px 3px #D3D3D3;
+}
+
+#Just\ The\ Way\ You\ Are {
+    text-shadow: 2px 2px 3px rgb(236, 206, 236);
+}
+
+#Marry\ Your\ Daughter {
+    text-shadow: 2px 2px 3px  #2F4F4F;
+}
+
+#Perfect {
+    text-shadow: 2px 2px 3px #2d739f;
+}
+
+#Photograph {
+    text-shadow: 2px 2px 3px #225a22;
+}
+
+#Sugar {
+    text-shadow: 2px 2px 3px #FFC0CB;
+}
+
+#Talking\ To\ The\ Moon {
+    text-shadow: 2px 2px 3px #C0C0C0;
+}
+
+#Unconditionally {
+    text-shadow: 2px 2px 3px #c2f3f4;
+}
+
+#When\ I\ Was\ Your\ Man {
+    text-shadow: 2px 2px 3px  #FFFAF0;
+}
+
+.card a{
+    text-align: center;
+    position: relative;
+    top: 60%;
+    left: 45%;
+    transform: translate(-85%, -50%);
+}
+
+  .titulo{
+    text-align: center;
+    position: relative;
+    color: #262626;
+    text-shadow: 2px 2px 3px #d69999;
+    top: 60px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+  }
+
+ 
+
+

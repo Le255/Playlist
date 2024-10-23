@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/when.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>When I Was Your Man</h1>
+
+    <h2>Letra</h2>
+
+    <p class="negrito">Same bed, but it feels just a little bit bigger now</p>
+    <p>A mesma cama, mas ela parece um pouco maior agora</p>
+    <p class="negrito">Our song on the radio, but it don't sound the same</p>
+    <p>Nossa canção no rádio, mas ela não soa como antes</p>
+    <p class="negrito">When our friends talk about you, all it does is just tear me down</p>
+    <p>Quando nossos amigos falam sobre você, tudo isso só faz me deixar mal</p>
+    <p class="negrito">'Cause my heart breaks a little when I hear your name</p>
+    <p>Porque meu coração se parte um pouco quando ouço seu nome</p>
+    <br>
+    <p class="negrito">It all just sounds like, ooh</p>
+    <p>E tudo soa como, ooh</p>
+    <br>
+    <p class="negrito">Too young, too dumb to realize</p>
+    <p>Jovem demais, tolo demais para perceber</p>
+    <p class="negrito">That I should've bought you flowers and held your hand</p>
+    <p>Que eu deveria ter lhe comprado flores e segurado sua mão</p>
+    <p class="negrito">Should've gave you all my hours when I had the chance</p>
+    <p>Deveria ter lhe dado todas as minhas horas quando eu tive a chance</p>
+    <p class="negrito">Take you to every party, 'cause all you wanted to do was dance</p>
+    <p>Ter levado você a todas as festas, porque tudo o que você queria fazer era dançar</p>
+    <p class="negrito">Now my baby is dancing, but she's dancing with another man</p>
+    <p>Agora minha garota está dançando, mas está dançando com um outro homem</p>
+    <br>
+    <p class="negrito">My pride, my ego, my needs and my selfish ways</p>
+    <p>Meu orgulho, meu ego, minhas necessidades e meu jeito egoísta</p>
+    <p class="negrito">Caused a good strong woman like you to walk out my life</p>
+    <p>Fizeram com que uma mulher boa e forte como você saísse da minha vida</p>
+    <p class="negrito">Now I'll never, never get to clean up the mess I made, oh</p>
+    <p>Agora eu nunca, nunca conseguirei limpar a confusão que eu fiz, oh</p>
+    <p class="negrito">And it haunts me every time I close my eyes</p>
+    <p>E isso me assombra toda vez que fecho os meus olhos</p>
+    <br>
+    <p class="negrito">It all just sounds like, ooh</p>
+    <p>Tudo isso soa como, ooh</p>
+    <br>
+    <p class="negrito">Too young, too dumb to realize</p>
+    <p>Jovem demais, tolo demais para perceber</p>
+    <p class="negrito">That I should've bought you flowers and held your hand</p>
+    <p>Que eu deveria ter lhe comprado flores e segurado sua mão</p>
+    <p class="negrito">Should've gave you all my hours when I had the chance</p>
+    <p>Deveria ter lhe dado todas as minhas horas quando eu tive a chance</p>
+    <p class="negrito">Take you to every party, 'cause all you wanted to do was dance</p>
+    <p>Ter levado você a todas as festas, porque tudo o que você queria fazer era dançar</p>
+    <p class="negrito">Now my baby is dancing, but she's dancing with another man</p>
+    <p>Agora minha garota está dançando, mas está dançando com um outro homem</p>
+    <br>
+    <p class="negrito">Although it hurts</p>
+    <p>Embora isso doa</p>
+    <p class="negrito">I'll be the first to say that I was wrong</p>
+    <p>Eu serei o primeiro a dizer que eu estava errado</p>
+    <p class="negrito">Oh, I know I'm probably much too late</p>
+    <p>Oh, eu sei que provavelmente estou muito atrasado</p>
+    <p class="negrito">To try and apologize for my mistakes</p>
+    <p>Para tentar me desculpar pelos meus erros</p>
+    <p class="negrito">But I just want you to know</p>
+    <p>Mas eu só quero que você saiba</p>
+    <br>
+    <p class="negrito">I hope he buys you flowers, I hope he holds your hand</p>
+    <p>Espero que ele lhe compre flores, espero que ele segure sua mão</p>
+    <p class="negrito">Give you all his hours when he has the chance</p>
+    <p>Que lhe dê todas as suas horas quando tiver a chance</p>
+    <p class="negrito">Take you to every party</p>
+    <p>Que leve você a todas as festas</p>
+    <p class="negrito">'Cause I remember how much you loved to dance</p>
+    <p>Porque eu me lembro do quanto você amava dançar</p>
+    <br>
+    <p class="negrito">Do all the things I should've done</p>
+    <p>Que faça todas as coisas que eu deveria ter feito</p>
+    <p class="negrito">When I was your man</p>
+    <p>Quando era o seu homem</p>
+    <p class="negrito">Do all the things I should've done</p>
+    <p>Que faça todas as coisas que eu deveria ter feito</p>
+    <p class="negrito">When I was your man</p>
+    <p>Quando era o seu homem</p>
+
+    <div id="quadrado" onclick="mudarInformacao()">
+          <img src="/img/When.jpg">
+        </a>
+      </div>
+    
+    <script>
+        function mudarInformacao() {
+            var quadrado = document.getElementById("quadrado");
+            var imagem = quadrado.querySelector('img');
+    
+            var textoHTML = '<p>Artista:Bruno Mars </p> <p> Álbum:---  </p> ';
+            quadrado.innerHTML = '';
+    
+            
+      
+            if (imagem) {
+                quadrado.innerHTML = textoHTML;
+            } else {
+                var novaImagem = document.createElement('img');
+                novaImagem.src = '/img/When.jpg';
+                novaImagem.alt = 'Bruno Mars';
+                quadrado.appendChild(novaImagem);
+            }
+        }
+     </script>
+
+    <a href="/index.html" class="voltar"> &#8592; </a>
+    <a href="/Playlist/all.html" class="proxima"> &#8594;</a>
+</body>
+</html>
